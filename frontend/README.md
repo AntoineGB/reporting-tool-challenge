@@ -83,14 +83,14 @@ My process was structured in three phases, prioritizing a solid foundation and i
 
 #### **2\. Are you happy with your solution? Why or why not?**
 
-Yes, I am happy with this solution as a 4-hour proof-of-concept.
+Meeeeeh, I tried to make a complex frontend, but it bit me back.
 
 * **What I'm happy with:** It successfully meets all the core requirements of the prompt in a robust, end-to-end fashion. The architecture is clean and scalable: the frontend is decoupled from the backend, and the state management is centralized. The code is organized, and the use of Docker and a Makefile makes it professional and easy to run.  
-* **What could be better:** The UI for editing elements is very basic. For example, the table element's headers are not editable through the UI. The user experience could be enhanced with loading skeletons, notifications, and more detailed error handling.
+* **What could be better:** The ImageElement is flickering (lack of time), The UI for editing elements is very basic. For example, the table element's headers are not editable through the UI. The user experience could be enhanced with loading skeletons, notifications, and more detailed error handling.
 
 #### **3\. What would you do differently if you got to do this over again?**
 
-With more time, I would make the following improvements in order of priority:
+With more time, I would make:
 
 1. **Enhance Element Editing:** I would build modals or inline forms to edit the properties of each element (e.g., a UI for adding/removing table columns, a color picker for charts).  
 2. **Implement Drag-and-Drop:** I would integrate a library like react-beautiful-dnd or Dnd-kit to allow users to reorder the elements in the report, getting closer to a true "no-code" feel.  
