@@ -1,0 +1,4 @@
+fastapi
+uvicorn[standard] # Provides a lightning-fast ASGI server for FastAPI
+sqlalchemy      # The ORM
+python-multipart # Required by FastAPI for handling form data
